@@ -1,8 +1,9 @@
 <html>
  <head>
-   
-   
+   <link rel = "stylesheet" href = "./myBio.css"/>
+  
   </head>
+ 
   <body>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 
@@ -94,6 +95,60 @@
   </header>
     
   </body>
+   
+   <script>
+    
+    const backgroundBio = document.getElementById("BIO")
+
+BIO.addEventListener("click", () => {
+  const viewContent = document.getElementById("viewContent")
+  viewContent.innerHTML = ""
+
+  const currBackground = document.createElement("div")
+  currBackground.innerHTML = "Currently I am in the military where my dailiy activities consisit of rigorous traininig and teaching others how to become a lethal fighting force for the organization. Before I joined the military, I had a major interest in the STEM community and ended up pursuing a degree in Electrical Egineering. Since my time in the military is coming to an end, I am highly motivated and interested in pursuing IT as well as learning the necessry skills to become a successful asset to the company"
+  viewContent.appendChild(currBackground)
+
+})
+
+const educationBio = document.getElementById("EDU")
+
+EDU.addEventListener("click", () => {
+  const viewEdu = document.getElementById("viewEdu")
+  viewEdu.innerHTLM = ""
+
+  const currEducation = document.createElement("div")
+  currEducation.innerHTML = "California State Universisty, Fullerton Bachelors of Science in Electrical Engineering"
+  viewEdu.appendChild(currEducation)
+
+})
+
+const militaryBio = document.getElementById("MIL")
+
+MIL.addEventListener("click", () => {
+  const viewMil = document.getElementById("viewMil")
+  viewMil.innerHTLM = ""
+
+  const currMilitary = document.createElement("div")
+  currMilitary.innerHTML = "2nd Ranger Battalion, 75th Ranger Regiment , Gun Team leader "
+  viewMil.appendChild(currMilitary)
+
+})
+
+const techBio = document.getElementById("TECH")
+
+TECH.addEventListener("click", () => {
+  const viewTech = document.getElementById("viewTech")
+  viewTech.innerHTLM = ""
+
+  const currTech = document.createElement("div")
+  currTech.innerHTML = "Linux / Microsoft Word, Excel , PowerShell / HTML / JAVA / CSS "
+  viewTech.appendChild(currTech)
+
+})
+
+    
+    
+    </script> 
   
 
   
